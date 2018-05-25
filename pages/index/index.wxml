@@ -1,0 +1,74 @@
+
+<view class='head'>
+
+  <view class='select_box'>
+  <!--一直显示的已选择框-->
+      <view class='select' catchtap='selectTapVersion'>
+          <text class='select_text'>{{selectDataVersion[indexVersion]}}</text>
+          
+          <image class='select_img {{showVersion&&"select_img_rotate"}}'       src='/images/more_unfold.png'></image>         
+      </view>
+
+  <!--点击才显示的选项框  -->
+      <view class='option_box' style='height:{{showVersion?(selectDataVersion.length>5?300:selectDataVersion.length*60):0}}rpx;'>
+          <text class='option' style='{{index==selectDataVersion.length-1&&"border:0;"}}' wx:for='{{selectDataVersion}}' wx:key='this' data-index='{{index}}' catchtap='optionTapVersion'>{{item}}</text>
+      </view>
+  </view>
+
+  <view class='select_box'>
+  <!--一直显示的已选择框-->
+      <view class='select' catchtap='selectTapGrade'>
+          <text class='select_text'>{{selectDataGrade[indexGrade]}}</text>
+          
+          <image class='select_img {{showGrade&&"select_img_rotate"}}'       src='/images/more_unfold.png'></image>         
+      </view>
+
+  <!--点击才显示的选项框  -->
+      <view class='option_box' style='height:{{showGrade?(selectDataGrade.length>5?300:selectDataGrade.length*60):0}}rpx;'>
+          <text class='option' style='{{index==selectDataGrade.length-1&&"border:0;"}}' wx:for='{{selectDataGrade}}' wx:key='this' data-index='{{index}}' catchtap='optionTapGrade'>{{item}}</text>
+      </view>
+  </view>
+
+</view>
+
+<view class='body'>
+  <view class='unit'>
+    <view class='unit_number'>unit1
+    </view>
+    <view class='unit_content'>
+
+      <view class='unit_practice'>
+        <view class='title'>已完成练习</view>
+        <text class='percent'>20%</text>
+        <view class='btn-detail'>单词练习</view>
+      </view>
+
+      <view class='unit_test'>
+        <view class='title'>最高得分</view>
+        <text class='percent'>60分</text>
+        <view class='btn-detail'>默写单词</view>
+      </view>
+
+    </view>
+  </view>
+
+  <view class='unit'>
+    <view class='unit_number'>unit2
+    </view>
+    <view class='unit_content'>
+      <view class='unit_practice'>
+        <view class='title'>已完成练习</view>
+        <text class='percent'>20%</text>
+        <view class='btn-detail'>单词练习</view>
+      </view>
+
+      <view class='unit_test'>
+        <view class='title'>最高得分</view>
+        <text class='percent'>60分</text>
+        <view class='btn-detail'>默写单词</view>
+      </view>
+
+    </view>
+  </view>
+</view>
+

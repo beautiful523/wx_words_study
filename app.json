@@ -1,0 +1,42 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/wrongs/wrongs",
+    "pages/collects/collects",
+    "pages/scores/scores",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#1ec15a",
+    "navigationBarTitleText": "小学生记单词",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "selectedColor": "#2e5e86",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/home.png",
+      "selectedIconPath": "images/home.png"
+    },
+    {
+      "pagePath": "pages/wrongs/wrongs",
+      "text": "错题书",
+      "iconPath": "images/office-2.png",
+      "selectedIconPath": "images/office-2.png"
+    },
+    {
+      "pagePath": "pages/collects/collects",
+      "text": "收藏",
+      "iconPath": "images/box-2.png",
+      "selectedIconPath": "images/box-2.png"
+    },
+    {
+      "pagePath": "pages/scores/scores",
+      "text": "我的成绩",
+      "iconPath": "images/form-2.png",
+      "selectedIconPath": "images/form-2.png"
+    }]
+  }
+}
