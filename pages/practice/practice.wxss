@@ -1,0 +1,47 @@
+/* pages/practice/practice.wxss */
+page{
+  background: #e6ddcf;
+}
+.head{
+  background: #1ec15a;
+  color: white;
+  height: 65rpx;
+  padding: 20rpx 
+} 
+.practice_percent{
+  float: right
+}
+
+
+.body{
+  padding: 50rpx 70rpx 50rpx;
+  /* background: gray */
+}
+.student_input{
+  background: #c8b18f;
+  height: 130rpx;
+  line-height: 130rpx;
+  font-size: 90rpx;
+  color: #555;
+}
+ .input_placeholder{
+  color: #ccb593;
+  font-size: 90rpx;
+} 
+.soundmark{
+  color: #555;
+  line-height: 60rpx;
+  text-align: center
+}
+.chinese{
+  color: #555;
+  line-height: 100rpx;
+  text-align: center
+}
+.collect_view{
+  padding-left: 50rpx
+}
+.collect{
+  width: 50rpx;
+  height: 50rpx
+}

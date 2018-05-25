@@ -40,6 +40,12 @@
 					"name": "logs",
 					"pathName": "pages/logs/logs",
 					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "practice",
+					"pathName": "pages/practice/practice",
+					"query": ""
 				}
 			]
 		}

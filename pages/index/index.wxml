@@ -40,7 +40,7 @@
       <view class='unit_practice'>
         <view class='title'>已完成练习</view>
         <text class='percent'>20%</text>
-        <view class='btn-detail'>单词练习</view>
+        <view class='btn-detail' bindtap='to_practice'>单词练习</view>
       </view>
 
       <view class='unit_test'>

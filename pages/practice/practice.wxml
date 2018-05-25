@@ -1,0 +1,19 @@
+<!--pages/practice/practice.wxml-->
+
+<view class='head'>
+  <text>拼写练习</text>
+  <view class='practice_percent'>2/20</view>
+</view>
+
+
+<view class='body'>
+  <form bindsubmit="submit_e" action=""> 
+    <input class='student_input' placeholder='because' auto-focus='true' placeholder-class='input_placeholder' bindinput="input_e" bindconfirm='confirm_e'></input>
+    <!-- <button formType="submit">提交</button>  -->
+  </form>
+  <view class='soundmark'>/bɪ'kɒz/</view>
+  <view class='chinese'>conj. 因为</view>
+</view>
+<view class='foot'>
+  <view class='collect_view'><image src='/images/favorite.png' class='collect'></image></view>
+</view>

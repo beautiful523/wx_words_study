@@ -58,6 +58,16 @@ Page({
         indexGrade: IndexGrade
       })
     };
+
+
+  },
+  to_practice(){
+    wx.navigateTo({
+      url: '/pages/practice/practice',
+      success: function(res) {},
+      fail: function(res) {},
+      complete: function(res) {},
+    })
   }
 
 })

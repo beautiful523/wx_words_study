@@ -4,6 +4,7 @@
     "pages/wrongs/wrongs",
     "pages/collects/collects",
     "pages/scores/scores",
+    "pages/practice/practice",
     "pages/logs/logs"
   ],
   "window":{
